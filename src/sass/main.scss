@@ -5,3 +5,16 @@
 
 // Стили для файла с примером HTML-фрагмента
 // @import './example';
+
+// UTILS
+@import './utils/mixins';
+@import './utils/visually-hidden';
+
+// BASE
+@import './base/common';
+@import './base/container';
+
+// COMPONENTS
+
+// LAYOUT
+@import './layout/header';
