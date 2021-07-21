@@ -5,8 +5,10 @@
   margin: -3px;
 }
 .gallery-item {
-  width: 320px;
+  max-width: 320px;
   margin: 6px;
+  border-radius: 10px;
+  overflow: hidden;
 }
 .last-item {
   display: flex;
