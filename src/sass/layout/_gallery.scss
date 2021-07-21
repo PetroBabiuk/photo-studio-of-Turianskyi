@@ -1,0 +1,24 @@
+.gallery-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: -3px;
+}
+.gallery-item {
+  width: 320px;
+  margin: 6px;
+}
+.last-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c3cd32;
+
+  & .more-btn {
+    display: block;
+    min-width: 60px;
+    min-height: 60px;
+    border-radius: 50%;
+    background-color: aquamarine;
+  }
+}
